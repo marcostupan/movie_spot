@@ -53,3 +53,36 @@
     text-align: flex;
     width: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+    .posterImage_title {
+      font-size: 2rem; 
+    }
+
+    .posterImage_runtime {
+        font-size: 1rem;
+    }
+    .posterImage_description {
+        font-size: 1rem;
+        text-align: center;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .header_icon {
+        width: 60px;
+    }
+
+    #root > div > div.header > div.headerLeft > a:nth-child(2) > span {
+        font-size: 14px;
+        margin-top: 4px;
+        display: block;
+    }
+    #root > div > div.header > div.headerRight > input[type=text] {
+        max-width: 30%;
+    }
+    .search-button {
+        font-size: 10px;
+    }
+  }
